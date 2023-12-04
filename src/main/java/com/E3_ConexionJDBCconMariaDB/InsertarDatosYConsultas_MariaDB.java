@@ -58,7 +58,7 @@ public class InsertarDatosYConsultas_MariaDB {
             Class.forName(DRIVER);  //cargamos el driver mediante la ruta que está en la variable tipo final.
         } catch (Exception e) {
             System.err.println("ERROR al cargar el Driver");
-            System.exit(1);  //termina el programa.
+            System.exit(1);  //termina el programa y se sale.
         }
         
         //para crear las tablas si no se han creado aún:
